@@ -1,2 +1,2 @@
 # whack-a-mole
-Whack-a-mole game created to be run by an arduino MKR WIFI-1010
+Whack-a-mole game created to be run by an arduino MKR WIFI-1010. I recreated a variation of the whack-a-mole game using an arduino and circuit components. The arduino code is made to randomly turn on one of the yellow LED lights shown in the image, and there is a specific allocation of time given for the user to press the corresponding button. If the user selects the correct button in time, then the green light flashes and the motor spins and if not, then the red light will flash twice. The motor is controlled using an N-channel MOSFET to use both the low voltage from the arduino and the high voltage from the wall. The link for the code is included below.
